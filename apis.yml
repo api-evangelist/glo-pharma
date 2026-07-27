@@ -1,8 +1,25 @@
 aid: glo-pharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glo-pharma.png
 name: Glo Pharma
-description: Glo Pharma is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'GLO Pharma is a beauty and aesthetics company developing next-generation
+  products for at-home use, best known for the subtopical skincare brand Ourself.
+  Backed by Lightspeed Venture Partners (Series A, 2020), the company operates as a
+  direct-to-consumer beauty and personal-care business rather than a technology or
+  API provider: it sells physical skincare and aesthetic products to end consumers
+  and does not publish a developer platform, public API, OpenAPI specification, or
+  developer portal. It is tracked in the API Evangelist network as a Lightspeed
+  portfolio company profile; enrichment found no API surface to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/glo-pharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +27,28 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-is-api-provider: false
+x-brand: Ourself
+x-lsvp-profile: https://lsvp.com/company/glo-pharma/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Beauty
+- Skincare
+- Aesthetics
+- Consumer
+- Cosmetics
+- Personal Care
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
